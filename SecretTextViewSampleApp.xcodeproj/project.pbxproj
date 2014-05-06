@@ -9,15 +9,15 @@
 /* Begin PBXBuildFile section */
 		5493F99067374859879A86FD /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3955168FA32B421DAE44D923 /* libPods.a */; };
 		8E0CE0AA1911B428004FD653 /* KTSecretTextureChooserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0CE0A91911B428004FD653 /* KTSecretTextureChooserViewController.m */; };
-		8E23030B191808C800F3DE78 /* UIColor+KTColorUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E23030A191808C800F3DE78 /* UIColor+KTColorUtils.m */; };
 		8E23031619183E8C00F3DE78 /* OpenSans-CondBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E23031419183E8C00F3DE78 /* OpenSans-CondBold.ttf */; };
 		8E23031719183E8C00F3DE78 /* OpenSans-CondLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E23031519183E8C00F3DE78 /* OpenSans-CondLight.ttf */; };
 		8E230319191840B400F3DE78 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E230318191840B400F3DE78 /* OpenSans-Regular.ttf */; };
 		8E2303231918683400F3DE78 /* KTImageUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2303221918683400F3DE78 /* KTImageUtil.m */; };
 		8E2303261918AF4900F3DE78 /* KTSecretTextViewSampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2303251918AF4900F3DE78 /* KTSecretTextViewSampleViewController.m */; };
 		8E23032A19197DFF00F3DE78 /* KTSecretTextView.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 8E23032919197DFF00F3DE78 /* KTSecretTextView.podspec */; };
+		8E5CDEE919197F090059E376 /* KTNumberUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5CDEE619197F090059E376 /* KTNumberUtil.m */; };
+		8E5CDEEA19197F090059E376 /* UIColor+KTColorUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5CDEE819197F090059E376 /* UIColor+KTColorUtils.m */; };
 		8E8438B11912ECF200996E86 /* KTSecretPhotosEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8438B01912ECF200996E86 /* KTSecretPhotosEditorViewController.m */; };
-		8E8438B41912F45200996E86 /* KTNumberUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8438B31912F45200996E86 /* KTNumberUtil.m */; };
 		8EC40EB81910706B0048D85F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EC40EB71910706B0048D85F /* Foundation.framework */; };
 		8EC40EBA1910706B0048D85F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EC40EB91910706B0048D85F /* CoreGraphics.framework */; };
 		8EC40EBC1910706B0048D85F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EC40EBB1910706B0048D85F /* UIKit.framework */; };
@@ -51,8 +51,6 @@
 		3955168FA32B421DAE44D923 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E0CE0A81911B428004FD653 /* KTSecretTextureChooserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KTSecretTextureChooserViewController.h; path = SecretTextView/KTSecretTextureChooserViewController.h; sourceTree = "<group>"; };
 		8E0CE0A91911B428004FD653 /* KTSecretTextureChooserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KTSecretTextureChooserViewController.m; path = SecretTextView/KTSecretTextureChooserViewController.m; sourceTree = "<group>"; };
-		8E230309191808C800F3DE78 /* UIColor+KTColorUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+KTColorUtils.h"; path = "SecretTextView/UIColor+KTColorUtils.h"; sourceTree = "<group>"; };
-		8E23030A191808C800F3DE78 /* UIColor+KTColorUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+KTColorUtils.m"; path = "SecretTextView/UIColor+KTColorUtils.m"; sourceTree = "<group>"; };
 		8E23031419183E8C00F3DE78 /* OpenSans-CondBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-CondBold.ttf"; path = "SecretTextView/Resources/OpenSans-Cond/OpenSans-CondBold.ttf"; sourceTree = "<group>"; };
 		8E23031519183E8C00F3DE78 /* OpenSans-CondLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-CondLight.ttf"; path = "SecretTextView/Resources/OpenSans-Cond/OpenSans-CondLight.ttf"; sourceTree = "<group>"; };
 		8E230318191840B400F3DE78 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Regular.ttf"; path = "SecretTextView/Resources/OpenSans/OpenSans-Regular.ttf"; sourceTree = "<group>"; };
@@ -61,10 +59,12 @@
 		8E2303241918AF4900F3DE78 /* KTSecretTextViewSampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTSecretTextViewSampleViewController.h; sourceTree = "<group>"; };
 		8E2303251918AF4900F3DE78 /* KTSecretTextViewSampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTSecretTextViewSampleViewController.m; sourceTree = "<group>"; };
 		8E23032919197DFF00F3DE78 /* KTSecretTextView.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = KTSecretTextView.podspec; path = SecretTextView/KTSecretTextView.podspec; sourceTree = SOURCE_ROOT; };
+		8E5CDEE519197F090059E376 /* KTNumberUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KTNumberUtil.h; path = SecretTextView/Utils/KTNumberUtil.h; sourceTree = "<group>"; };
+		8E5CDEE619197F090059E376 /* KTNumberUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KTNumberUtil.m; path = SecretTextView/Utils/KTNumberUtil.m; sourceTree = "<group>"; };
+		8E5CDEE719197F090059E376 /* UIColor+KTColorUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+KTColorUtils.h"; path = "SecretTextView/Utils/UIColor+KTColorUtils.h"; sourceTree = "<group>"; };
+		8E5CDEE819197F090059E376 /* UIColor+KTColorUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+KTColorUtils.m"; path = "SecretTextView/Utils/UIColor+KTColorUtils.m"; sourceTree = "<group>"; };
 		8E8438AF1912ECF200996E86 /* KTSecretPhotosEditorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KTSecretPhotosEditorViewController.h; path = SecretTextView/KTSecretPhotosEditorViewController.h; sourceTree = "<group>"; };
 		8E8438B01912ECF200996E86 /* KTSecretPhotosEditorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KTSecretPhotosEditorViewController.m; path = SecretTextView/KTSecretPhotosEditorViewController.m; sourceTree = "<group>"; };
-		8E8438B21912F45200996E86 /* KTNumberUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KTNumberUtil.h; path = SecretTextView/KTNumberUtil.h; sourceTree = "<group>"; };
-		8E8438B31912F45200996E86 /* KTNumberUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KTNumberUtil.m; path = SecretTextView/KTNumberUtil.m; sourceTree = "<group>"; };
 		8EC40EB41910706B0048D85F /* SecretTextViewSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecretTextViewSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EC40EB71910706B0048D85F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8EC40EB91910706B0048D85F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -118,10 +118,10 @@
 		8E23031A1918675400F3DE78 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				8E230309191808C800F3DE78 /* UIColor+KTColorUtils.h */,
-				8E23030A191808C800F3DE78 /* UIColor+KTColorUtils.m */,
-				8E8438B21912F45200996E86 /* KTNumberUtil.h */,
-				8E8438B31912F45200996E86 /* KTNumberUtil.m */,
+				8E5CDEE519197F090059E376 /* KTNumberUtil.h */,
+				8E5CDEE619197F090059E376 /* KTNumberUtil.m */,
+				8E5CDEE719197F090059E376 /* UIColor+KTColorUtils.h */,
+				8E5CDEE819197F090059E376 /* UIColor+KTColorUtils.m */,
 				8E2303211918683400F3DE78 /* KTImageUtil.h */,
 				8E2303221918683400F3DE78 /* KTImageUtil.m */,
 			);
@@ -370,13 +370,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E8438B41912F45200996E86 /* KTNumberUtil.m in Sources */,
 				8EC40EC41910706B0048D85F /* main.m in Sources */,
 				8E2303261918AF4900F3DE78 /* KTSecretTextViewSampleViewController.m in Sources */,
-				8E23030B191808C800F3DE78 /* UIColor+KTColorUtils.m in Sources */,
+				8E5CDEEA19197F090059E376 /* UIColor+KTColorUtils.m in Sources */,
 				8E2303231918683400F3DE78 /* KTImageUtil.m in Sources */,
 				8EECF2E61916A8F800873520 /* KTSecretTextView.m in Sources */,
 				8E8438B11912ECF200996E86 /* KTSecretPhotosEditorViewController.m in Sources */,
+				8E5CDEE919197F090059E376 /* KTNumberUtil.m in Sources */,
 				8EC40EE9191070CD0048D85F /* KTSecretColorChooserViewController.m in Sources */,
 				8E0CE0AA1911B428004FD653 /* KTSecretTextureChooserViewController.m in Sources */,
 				8EC40EC81910706B0048D85F /* KTAppDelegate.m in Sources */,
