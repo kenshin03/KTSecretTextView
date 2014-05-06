@@ -2,18 +2,21 @@
 
 `KTSecretTextView` is an attempt to re-create the text view in the app [Secret](http://secret.ly). Its clever designs and heavy use of gestures makes it very intuitive for users to customize their secret texts with textured backgrounds or photos. 
 
-<!--
 <div align="center">
 <tr>
     <td>
-        <img src="http://engineering.2359media.net/media/2014-04-16-rebuilding-instagram-feed-table-view/images/feed1.png" width="266" height="500" />
+        <img src="https://raw.githubusercontent.com/kenshin03/KTSecretTextView/master/SecretTextView/Resources/Screenshots/KTSecretTextView-screenshot1.png" width="266" height="500" />
     </td>
     <td>
-        <img src="http://engineering.2359media.net/media/2014-04-16-rebuilding-instagram-feed-table-view/images/feed2.png" width="266" height="500" />
+        <img src="https://raw.githubusercontent.com/kenshin03/KTSecretTextView/master/SecretTextView/Resources/Screenshots/KTSecretTextView-screenshot2.png" width="266" height="500" />
+    </td>
+</tr>
+<tr>
+    <td>
+        <img src="https://raw.githubusercontent.com/kenshin03/KTSecretTextView/master/SecretTextView/Resources/Screenshots/KTSecretTextView-screenshot3.png" width="266" height="500" />
     </td>
 </tr>
 </div>
--->
 
 ---
 ##Installation
