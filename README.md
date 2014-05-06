@@ -2,6 +2,14 @@
 
 `KTSecretTextView` is an attempt to re-create the text view in the app [Secret](http://secret.ly). Its clever designs and heavy use of gestures makes it very intuitive for users to customize their secret texts with textured backgrounds or photos. 
 
+---
+##Video
+
+<img src="https://raw.githubusercontent.com/kenshin03/KTSecretTextView/master/SecretTextView/Resources/Screenshots/KTSecretTextView-screencast.gif" width="320" height="568" />
+
+---
+##Screenshots
+
 <div align="center">
 <tr>
     <td>
@@ -15,10 +23,23 @@
     <td>
         <img src="https://raw.githubusercontent.com/kenshin03/KTSecretTextView/master/SecretTextView/Resources/Screenshots/KTSecretTextView-screenshot3.png" width="266" height="500" />
     </td>
+    <td>
+        <img src="https://raw.githubusercontent.com/kenshin03/KTSecretTextView/master/SecretTextView/Resources/Screenshots/KTSecretTextView-screenshot4.png" width="266" height="500" />
+    </td>
 </tr>
 </div>
 
 ---
+
+##Features
+
+- Scroll horizontally to choose between 8 types of background colors (Emerald Sea, Hopscotch, Lavender, Burst, Cupid, Peony, Midnight, White).
+- Long Press to choose color from a compressed palette.
+- Swipe vertically to choose between 6 types of textures (Glow, Linen, Lines, Noise, Squares, Squares2)
+- Take a photo or choose one from Camera Roll as background.
+- Pan left/right/up/down to vary the blurriness and dimmness of the background image.
+- Text will attempt to align to the center vertically.
+
 ##Installation
 
 Add this to your Podfile to use `KTSecretTextView`:
