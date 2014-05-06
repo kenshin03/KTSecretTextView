@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5493F99067374859879A86FD /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3955168FA32B421DAE44D923 /* libPods.a */; };
+		8E0CE0AA1911B428004FD653 /* KTSecretTextureChooserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0CE0A91911B428004FD653 /* KTSecretTextureChooserViewController.m */; };
+		8E23030B191808C800F3DE78 /* UIColor+KTColorUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E23030A191808C800F3DE78 /* UIColor+KTColorUtils.m */; };
+		8E23031619183E8C00F3DE78 /* OpenSans-CondBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E23031419183E8C00F3DE78 /* OpenSans-CondBold.ttf */; };
+		8E23031719183E8C00F3DE78 /* OpenSans-CondLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E23031519183E8C00F3DE78 /* OpenSans-CondLight.ttf */; };
+		8E230319191840B400F3DE78 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E230318191840B400F3DE78 /* OpenSans-Regular.ttf */; };
+		8E2303231918683400F3DE78 /* KTImageUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2303221918683400F3DE78 /* KTImageUtil.m */; };
+		8E2303261918AF4900F3DE78 /* KTSecretTextViewSampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2303251918AF4900F3DE78 /* KTSecretTextViewSampleViewController.m */; };
+		8E23032A19197DFF00F3DE78 /* KTSecretTextView.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 8E23032919197DFF00F3DE78 /* KTSecretTextView.podspec */; };
+		8E8438B11912ECF200996E86 /* KTSecretPhotosEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8438B01912ECF200996E86 /* KTSecretPhotosEditorViewController.m */; };
+		8E8438B41912F45200996E86 /* KTNumberUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8438B31912F45200996E86 /* KTNumberUtil.m */; };
+		8EC40EB81910706B0048D85F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EC40EB71910706B0048D85F /* Foundation.framework */; };
+		8EC40EBA1910706B0048D85F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EC40EB91910706B0048D85F /* CoreGraphics.framework */; };
+		8EC40EBC1910706B0048D85F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EC40EBB1910706B0048D85F /* UIKit.framework */; };
+		8EC40EC21910706B0048D85F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8EC40EC01910706B0048D85F /* InfoPlist.strings */; };
+		8EC40EC41910706B0048D85F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC40EC31910706B0048D85F /* main.m */; };
+		8EC40EC81910706B0048D85F /* KTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC40EC71910706B0048D85F /* KTAppDelegate.m */; };
+		8EC40ECA1910706B0048D85F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EC40EC91910706B0048D85F /* Images.xcassets */; };
+		8EC40ED11910706B0048D85F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EC40ED01910706B0048D85F /* XCTest.framework */; };
+		8EC40ED21910706B0048D85F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EC40EB71910706B0048D85F /* Foundation.framework */; };
+		8EC40ED31910706B0048D85F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EC40EBB1910706B0048D85F /* UIKit.framework */; };
+		8EC40EDB1910706B0048D85F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8EC40ED91910706B0048D85F /* InfoPlist.strings */; };
+		8EC40EDD1910706B0048D85F /* SecretTextViewSampleAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC40EDC1910706B0048D85F /* SecretTextViewSampleAppTests.m */; };
+		8EC40EE9191070CD0048D85F /* KTSecretColorChooserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC40EE8191070CD0048D85F /* KTSecretColorChooserViewController.m */; };
+		8EC40EEC191172C30048D85F /* KTSecretViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC40EEB191172C30048D85F /* KTSecretViewController.m */; };
+		8EC40EF1191195F40048D85F /* SecretTextImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EC40EF0191195F40048D85F /* SecretTextImages.xcassets */; };
+		8EECF2E61916A8F800873520 /* KTSecretTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EECF2E51916A8F800873520 /* KTSecretTextView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8EC40ED41910706B0048D85F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EC40EAC1910706B0048D85F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EC40EB31910706B0048D85F;
+			remoteInfo = SecretTextViewSampleApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		28BEA27EB422460690E7A36B /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		3955168FA32B421DAE44D923 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E0CE0A81911B428004FD653 /* KTSecretTextureChooserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KTSecretTextureChooserViewController.h; path = SecretTextView/KTSecretTextureChooserViewController.h; sourceTree = "<group>"; };
+		8E0CE0A91911B428004FD653 /* KTSecretTextureChooserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KTSecretTextureChooserViewController.m; path = SecretTextView/KTSecretTextureChooserViewController.m; sourceTree = "<group>"; };
+		8E230309191808C800F3DE78 /* UIColor+KTColorUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+KTColorUtils.h"; path = "SecretTextView/UIColor+KTColorUtils.h"; sourceTree = "<group>"; };
+		8E23030A191808C800F3DE78 /* UIColor+KTColorUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+KTColorUtils.m"; path = "SecretTextView/UIColor+KTColorUtils.m"; sourceTree = "<group>"; };
+		8E23031419183E8C00F3DE78 /* OpenSans-CondBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-CondBold.ttf"; path = "SecretTextView/Resources/OpenSans-Cond/OpenSans-CondBold.ttf"; sourceTree = "<group>"; };
+		8E23031519183E8C00F3DE78 /* OpenSans-CondLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-CondLight.ttf"; path = "SecretTextView/Resources/OpenSans-Cond/OpenSans-CondLight.ttf"; sourceTree = "<group>"; };
+		8E230318191840B400F3DE78 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Regular.ttf"; path = "SecretTextView/Resources/OpenSans/OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		8E2303211918683400F3DE78 /* KTImageUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KTImageUtil.h; path = SecretTextView/Utils/KTImageUtil.h; sourceTree = "<group>"; };
+		8E2303221918683400F3DE78 /* KTImageUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KTImageUtil.m; path = SecretTextView/Utils/KTImageUtil.m; sourceTree = "<group>"; };
+		8E2303241918AF4900F3DE78 /* KTSecretTextViewSampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTSecretTextViewSampleViewController.h; sourceTree = "<group>"; };
+		8E2303251918AF4900F3DE78 /* KTSecretTextViewSampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTSecretTextViewSampleViewController.m; sourceTree = "<group>"; };
+		8E23032919197DFF00F3DE78 /* KTSecretTextView.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = KTSecretTextView.podspec; path = SecretTextView/KTSecretTextView.podspec; sourceTree = SOURCE_ROOT; };
+		8E8438AF1912ECF200996E86 /* KTSecretPhotosEditorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KTSecretPhotosEditorViewController.h; path = SecretTextView/KTSecretPhotosEditorViewController.h; sourceTree = "<group>"; };
+		8E8438B01912ECF200996E86 /* KTSecretPhotosEditorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KTSecretPhotosEditorViewController.m; path = SecretTextView/KTSecretPhotosEditorViewController.m; sourceTree = "<group>"; };
+		8E8438B21912F45200996E86 /* KTNumberUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KTNumberUtil.h; path = SecretTextView/KTNumberUtil.h; sourceTree = "<group>"; };
+		8E8438B31912F45200996E86 /* KTNumberUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KTNumberUtil.m; path = SecretTextView/KTNumberUtil.m; sourceTree = "<group>"; };
+		8EC40EB41910706B0048D85F /* SecretTextViewSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecretTextViewSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EC40EB71910706B0048D85F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8EC40EB91910706B0048D85F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8EC40EBB1910706B0048D85F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8EC40EBF1910706B0048D85F /* SecretTextViewSampleApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SecretTextViewSampleApp-Info.plist"; sourceTree = "<group>"; };
+		8EC40EC11910706B0048D85F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8EC40EC31910706B0048D85F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8EC40EC51910706B0048D85F /* SecretTextViewSampleApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SecretTextViewSampleApp-Prefix.pch"; sourceTree = "<group>"; };
+		8EC40EC61910706B0048D85F /* KTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KTAppDelegate.h; sourceTree = "<group>"; };
+		8EC40EC71910706B0048D85F /* KTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTAppDelegate.m; sourceTree = "<group>"; };
+		8EC40EC91910706B0048D85F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8EC40ECF1910706B0048D85F /* SecretTextViewSampleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecretTextViewSampleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EC40ED01910706B0048D85F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8EC40ED81910706B0048D85F /* SecretTextViewSampleAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SecretTextViewSampleAppTests-Info.plist"; sourceTree = "<group>"; };
+		8EC40EDA1910706B0048D85F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8EC40EDC1910706B0048D85F /* SecretTextViewSampleAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecretTextViewSampleAppTests.m; sourceTree = "<group>"; };
+		8EC40EE7191070CD0048D85F /* KTSecretColorChooserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KTSecretColorChooserViewController.h; path = SecretTextView/KTSecretColorChooserViewController.h; sourceTree = "<group>"; };
+		8EC40EE8191070CD0048D85F /* KTSecretColorChooserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KTSecretColorChooserViewController.m; path = SecretTextView/KTSecretColorChooserViewController.m; sourceTree = "<group>"; };
+		8EC40EEA191172C30048D85F /* KTSecretViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KTSecretViewController.h; path = SecretTextView/KTSecretViewController.h; sourceTree = "<group>"; };
+		8EC40EEB191172C30048D85F /* KTSecretViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KTSecretViewController.m; path = SecretTextView/KTSecretViewController.m; sourceTree = "<group>"; };
+		8EC40EF0191195F40048D85F /* SecretTextImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = SecretTextImages.xcassets; path = SecretTextView/Resources/SecretTextImages.xcassets; sourceTree = "<group>"; };
+		8EECF2E41916A8F800873520 /* KTSecretTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KTSecretTextView.h; path = SecretTextView/KTSecretTextView.h; sourceTree = "<group>"; };
+		8EECF2E51916A8F800873520 /* KTSecretTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KTSecretTextView.m; path = SecretTextView/KTSecretTextView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EC40EB11910706B0048D85F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EC40EBA1910706B0048D85F /* CoreGraphics.framework in Frameworks */,
+				8EC40EBC1910706B0048D85F /* UIKit.framework in Frameworks */,
+				8EC40EB81910706B0048D85F /* Foundation.framework in Frameworks */,
+				5493F99067374859879A86FD /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EC40ECC1910706B0048D85F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EC40ED11910706B0048D85F /* XCTest.framework in Frameworks */,
+				8EC40ED31910706B0048D85F /* UIKit.framework in Frameworks */,
+				8EC40ED21910706B0048D85F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E23031A1918675400F3DE78 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8E230309191808C800F3DE78 /* UIColor+KTColorUtils.h */,
+				8E23030A191808C800F3DE78 /* UIColor+KTColorUtils.m */,
+				8E8438B21912F45200996E86 /* KTNumberUtil.h */,
+				8E8438B31912F45200996E86 /* KTNumberUtil.m */,
+				8E2303211918683400F3DE78 /* KTImageUtil.h */,
+				8E2303221918683400F3DE78 /* KTImageUtil.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		8EC40EAB1910706B0048D85F = {
+			isa = PBXGroup;
+			children = (
+				8EC40EE6191070990048D85F /* SecretTextView */,
+				8EC40EBD1910706B0048D85F /* SecretTextViewSampleApp */,
+				8EC40ED61910706B0048D85F /* SecretTextViewSampleAppTests */,
+				8EC40EB61910706B0048D85F /* Frameworks */,
+				8EC40EB51910706B0048D85F /* Products */,
+				28BEA27EB422460690E7A36B /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		8EC40EB51910706B0048D85F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EC40EB41910706B0048D85F /* SecretTextViewSampleApp.app */,
+				8EC40ECF1910706B0048D85F /* SecretTextViewSampleAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EC40EB61910706B0048D85F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8EC40EB71910706B0048D85F /* Foundation.framework */,
+				8EC40EB91910706B0048D85F /* CoreGraphics.framework */,
+				8EC40EBB1910706B0048D85F /* UIKit.framework */,
+				8EC40ED01910706B0048D85F /* XCTest.framework */,
+				3955168FA32B421DAE44D923 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8EC40EBD1910706B0048D85F /* SecretTextViewSampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				8EC40EC61910706B0048D85F /* KTAppDelegate.h */,
+				8EC40EC71910706B0048D85F /* KTAppDelegate.m */,
+				8E2303241918AF4900F3DE78 /* KTSecretTextViewSampleViewController.h */,
+				8E2303251918AF4900F3DE78 /* KTSecretTextViewSampleViewController.m */,
+				8EC40EC91910706B0048D85F /* Images.xcassets */,
+				8EC40EBE1910706B0048D85F /* Supporting Files */,
+			);
+			path = SecretTextViewSampleApp;
+			sourceTree = "<group>";
+		};
+		8EC40EBE1910706B0048D85F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E23032919197DFF00F3DE78 /* KTSecretTextView.podspec */,
+				8EC40EBF1910706B0048D85F /* SecretTextViewSampleApp-Info.plist */,
+				8EC40EC01910706B0048D85F /* InfoPlist.strings */,
+				8EC40EC31910706B0048D85F /* main.m */,
+				8EC40EC51910706B0048D85F /* SecretTextViewSampleApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8EC40ED61910706B0048D85F /* SecretTextViewSampleAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				8EC40EDC1910706B0048D85F /* SecretTextViewSampleAppTests.m */,
+				8EC40ED71910706B0048D85F /* Supporting Files */,
+			);
+			path = SecretTextViewSampleAppTests;
+			sourceTree = "<group>";
+		};
+		8EC40ED71910706B0048D85F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8EC40ED81910706B0048D85F /* SecretTextViewSampleAppTests-Info.plist */,
+				8EC40ED91910706B0048D85F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8EC40EE6191070990048D85F /* SecretTextView */ = {
+			isa = PBXGroup;
+			children = (
+				8E23031A1918675400F3DE78 /* Utils */,
+				8EC40EEF191195CF0048D85F /* Resources */,
+				8EC40EE7191070CD0048D85F /* KTSecretColorChooserViewController.h */,
+				8EC40EE8191070CD0048D85F /* KTSecretColorChooserViewController.m */,
+				8EC40EEA191172C30048D85F /* KTSecretViewController.h */,
+				8EC40EEB191172C30048D85F /* KTSecretViewController.m */,
+				8E0CE0A81911B428004FD653 /* KTSecretTextureChooserViewController.h */,
+				8E0CE0A91911B428004FD653 /* KTSecretTextureChooserViewController.m */,
+				8E8438AF1912ECF200996E86 /* KTSecretPhotosEditorViewController.h */,
+				8E8438B01912ECF200996E86 /* KTSecretPhotosEditorViewController.m */,
+				8EECF2E41916A8F800873520 /* KTSecretTextView.h */,
+				8EECF2E51916A8F800873520 /* KTSecretTextView.m */,
+			);
+			name = SecretTextView;
+			sourceTree = "<group>";
+		};
+		8EC40EEF191195CF0048D85F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8E23031419183E8C00F3DE78 /* OpenSans-CondBold.ttf */,
+				8E23031519183E8C00F3DE78 /* OpenSans-CondLight.ttf */,
+				8E230318191840B400F3DE78 /* OpenSans-Regular.ttf */,
+				8EC40EF0191195F40048D85F /* SecretTextImages.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EC40EB31910706B0048D85F /* SecretTextViewSampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EC40EE01910706B0048D85F /* Build configuration list for PBXNativeTarget "SecretTextViewSampleApp" */;
+			buildPhases = (
+				8289D0768DCE46D1B3B68200 /* Check Pods Manifest.lock */,
+				8EC40EB01910706B0048D85F /* Sources */,
+				8EC40EB11910706B0048D85F /* Frameworks */,
+				8EC40EB21910706B0048D85F /* Resources */,
+				84F3BB5C0910419A8762BF19 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SecretTextViewSampleApp;
+			productName = SecretTextViewSampleApp;
+			productReference = 8EC40EB41910706B0048D85F /* SecretTextViewSampleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8EC40ECE1910706B0048D85F /* SecretTextViewSampleAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EC40EE31910706B0048D85F /* Build configuration list for PBXNativeTarget "SecretTextViewSampleAppTests" */;
+			buildPhases = (
+				8EC40ECB1910706B0048D85F /* Sources */,
+				8EC40ECC1910706B0048D85F /* Frameworks */,
+				8EC40ECD1910706B0048D85F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EC40ED51910706B0048D85F /* PBXTargetDependency */,
+			);
+			name = SecretTextViewSampleAppTests;
+			productName = SecretTextViewSampleAppTests;
+			productReference = 8EC40ECF1910706B0048D85F /* SecretTextViewSampleAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EC40EAC1910706B0048D85F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KT;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Corgitoergosum;
+				TargetAttributes = {
+					8EC40ECE1910706B0048D85F = {
+						TestTargetID = 8EC40EB31910706B0048D85F;
+					};
+				};
+			};
+			buildConfigurationList = 8EC40EAF1910706B0048D85F /* Build configuration list for PBXProject "SecretTextViewSampleApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8EC40EAB1910706B0048D85F;
+			productRefGroup = 8EC40EB51910706B0048D85F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EC40EB31910706B0048D85F /* SecretTextViewSampleApp */,
+				8EC40ECE1910706B0048D85F /* SecretTextViewSampleAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8EC40EB21910706B0048D85F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EC40EC21910706B0048D85F /* InfoPlist.strings in Resources */,
+				8EC40EF1191195F40048D85F /* SecretTextImages.xcassets in Resources */,
+				8E23031619183E8C00F3DE78 /* OpenSans-CondBold.ttf in Resources */,
+				8E23032A19197DFF00F3DE78 /* KTSecretTextView.podspec in Resources */,
+				8E23031719183E8C00F3DE78 /* OpenSans-CondLight.ttf in Resources */,
+				8E230319191840B400F3DE78 /* OpenSans-Regular.ttf in Resources */,
+				8EC40ECA1910706B0048D85F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EC40ECD1910706B0048D85F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EC40EDB1910706B0048D85F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8289D0768DCE46D1B3B68200 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		84F3BB5C0910419A8762BF19 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8EC40EB01910706B0048D85F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E8438B41912F45200996E86 /* KTNumberUtil.m in Sources */,
+				8EC40EC41910706B0048D85F /* main.m in Sources */,
+				8E2303261918AF4900F3DE78 /* KTSecretTextViewSampleViewController.m in Sources */,
+				8E23030B191808C800F3DE78 /* UIColor+KTColorUtils.m in Sources */,
+				8E2303231918683400F3DE78 /* KTImageUtil.m in Sources */,
+				8EECF2E61916A8F800873520 /* KTSecretTextView.m in Sources */,
+				8E8438B11912ECF200996E86 /* KTSecretPhotosEditorViewController.m in Sources */,
+				8EC40EE9191070CD0048D85F /* KTSecretColorChooserViewController.m in Sources */,
+				8E0CE0AA1911B428004FD653 /* KTSecretTextureChooserViewController.m in Sources */,
+				8EC40EC81910706B0048D85F /* KTAppDelegate.m in Sources */,
+				8EC40EEC191172C30048D85F /* KTSecretViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EC40ECB1910706B0048D85F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EC40EDD1910706B0048D85F /* SecretTextViewSampleAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8EC40ED51910706B0048D85F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EC40EB31910706B0048D85F /* SecretTextViewSampleApp */;
+			targetProxy = 8EC40ED41910706B0048D85F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8EC40EC01910706B0048D85F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EC40EC11910706B0048D85F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8EC40ED91910706B0048D85F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EC40EDA1910706B0048D85F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8EC40EDE1910706B0048D85F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8EC40EDF1910706B0048D85F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8EC40EE11910706B0048D85F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28BEA27EB422460690E7A36B /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Kenny Tang (3ZSQ9FX37R)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SecretTextViewSampleApp/SecretTextViewSampleApp-Prefix.pch";
+				INFOPLIST_FILE = "SecretTextViewSampleApp/SecretTextViewSampleApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8EC40EE21910706B0048D85F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28BEA27EB422460690E7A36B /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SecretTextViewSampleApp/SecretTextViewSampleApp-Prefix.pch";
+				INFOPLIST_FILE = "SecretTextViewSampleApp/SecretTextViewSampleApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8EC40EE41910706B0048D85F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SecretTextViewSampleApp.app/SecretTextViewSampleApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SecretTextViewSampleApp/SecretTextViewSampleApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SecretTextViewSampleAppTests/SecretTextViewSampleAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8EC40EE51910706B0048D85F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SecretTextViewSampleApp.app/SecretTextViewSampleApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SecretTextViewSampleApp/SecretTextViewSampleApp-Prefix.pch";
+				INFOPLIST_FILE = "SecretTextViewSampleAppTests/SecretTextViewSampleAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8EC40EAF1910706B0048D85F /* Build configuration list for PBXProject "SecretTextViewSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EC40EDE1910706B0048D85F /* Debug */,
+				8EC40EDF1910706B0048D85F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EC40EE01910706B0048D85F /* Build configuration list for PBXNativeTarget "SecretTextViewSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EC40EE11910706B0048D85F /* Debug */,
+				8EC40EE21910706B0048D85F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EC40EE31910706B0048D85F /* Build configuration list for PBXNativeTarget "SecretTextViewSampleAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EC40EE41910706B0048D85F /* Debug */,
+				8EC40EE51910706B0048D85F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8EC40EAC1910706B0048D85F /* Project object */;
+}
