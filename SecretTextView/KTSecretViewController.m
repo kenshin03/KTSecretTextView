@@ -134,6 +134,10 @@ UINavigationControllerDelegate
 {
     UIBarButtonItem *dismissButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemDone target:self action:@selector(didSelectDoneButton:)];
     self.navigationItem.rightBarButtonItem = dismissButton;
+    
+    UIBarButtonItem *cancelButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemCancel target:self action:@selector(didSelectCancelButton:)];
+    self.navigationItem.leftBarButtonItem = cancelButton;
+    
 }
 
 - (void)constrainViews
