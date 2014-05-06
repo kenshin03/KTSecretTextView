@@ -6,6 +6,12 @@
 // project.
 
 
+// KTSecretTextView
+#define COCOAPODS_POD_AVAILABLE_KTSecretTextView
+#define COCOAPODS_VERSION_MAJOR_KTSecretTextView 0
+#define COCOAPODS_VERSION_MINOR_KTSecretTextView 0
+#define COCOAPODS_VERSION_PATCH_KTSecretTextView 1
+
 // Reveal-iOS-SDK
 #define COCOAPODS_POD_AVAILABLE_Reveal_iOS_SDK
 #define COCOAPODS_VERSION_MAJOR_Reveal_iOS_SDK 1

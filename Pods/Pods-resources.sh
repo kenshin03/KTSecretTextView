@@ -41,6 +41,33 @@ install_resource()
       ;;
   esac
 }
+install_resource "KTSecretTextView/SecretTextView/Resources/OpenSans/LICENSE.txt"
+install_resource "KTSecretTextView/SecretTextView/Resources/OpenSans/OpenSans-Regular.ttf"
+install_resource "KTSecretTextView/SecretTextView/Resources/OpenSans-Cond/LICENSE.txt"
+install_resource "KTSecretTextView/SecretTextView/Resources/OpenSans-Cond/OpenSans-CondBold.ttf"
+install_resource "KTSecretTextView/SecretTextView/Resources/OpenSans-Cond/OpenSans-CondLight.ttf"
+install_resource "KTSecretTextView/SecretTextView/Resources/SecretTextImages.xcassets/camera_icon.imageset/camera_icon@2x.png"
+install_resource "KTSecretTextView/SecretTextView/Resources/SecretTextImages.xcassets/camera_icon.imageset/Contents.json"
+install_resource "KTSecretTextView/SecretTextView/Resources/SecretTextImages.xcassets/default_texture.imageset/Contents.json"
+install_resource "KTSecretTextView/SecretTextView/Resources/SecretTextImages.xcassets/default_texture.imageset/default_texture@2x.png"
+install_resource "KTSecretTextView/SecretTextView/Resources/SecretTextImages.xcassets/linen_texture.imageset/Contents.json"
+install_resource "KTSecretTextView/SecretTextView/Resources/SecretTextImages.xcassets/linen_texture.imageset/linen_texture@2x.png"
+install_resource "KTSecretTextView/SecretTextView/Resources/SecretTextImages.xcassets/lines_texture.imageset/Contents.json"
+install_resource "KTSecretTextView/SecretTextView/Resources/SecretTextImages.xcassets/lines_texture.imageset/lines_texture@2x.png"
+install_resource "KTSecretTextView/SecretTextView/Resources/SecretTextImages.xcassets/noise_texture.imageset/Contents.json"
+install_resource "KTSecretTextView/SecretTextView/Resources/SecretTextImages.xcassets/noise_texture.imageset/noise_texture@2x.png"
+install_resource "KTSecretTextView/SecretTextView/Resources/SecretTextImages.xcassets/squared_texture.imageset/Contents.json"
+install_resource "KTSecretTextView/SecretTextView/Resources/SecretTextImages.xcassets/squared_texture.imageset/squared_texture@2x.png"
+install_resource "KTSecretTextView/SecretTextView/Resources/SecretTextImages.xcassets/squares2_texture.imageset/Contents.json"
+install_resource "KTSecretTextView/SecretTextView/Resources/SecretTextImages.xcassets/squares2_texture.imageset/squares2_texture@2x.png"
+install_resource "KTSecretTextView/SecretTextView/Resources/SecretTextImages.xcassets"
+install_resource "KTSecretTextView/SecretTextView/Resources/SecretTextImages.xcassets/camera_icon.imageset"
+install_resource "KTSecretTextView/SecretTextView/Resources/SecretTextImages.xcassets/default_texture.imageset"
+install_resource "KTSecretTextView/SecretTextView/Resources/SecretTextImages.xcassets/linen_texture.imageset"
+install_resource "KTSecretTextView/SecretTextView/Resources/SecretTextImages.xcassets/lines_texture.imageset"
+install_resource "KTSecretTextView/SecretTextView/Resources/SecretTextImages.xcassets/noise_texture.imageset"
+install_resource "KTSecretTextView/SecretTextView/Resources/SecretTextImages.xcassets/squared_texture.imageset"
+install_resource "KTSecretTextView/SecretTextView/Resources/SecretTextImages.xcassets/squares2_texture.imageset"
 
 rsync -avr --copy-links --no-relative --exclude '*/.svn/*' --files-from="$RESOURCES_TO_COPY" / "${CONFIGURATION_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"
 if [[ "${ACTION}" == "install" ]]; then
