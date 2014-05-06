@@ -290,7 +290,7 @@ UINavigationControllerDelegate
         _backgroundInfoLabel = [UILabel new];
         
         _backgroundInfoLabel.translatesAutoresizingMaskIntoConstraints = NO;
-        _backgroundInfoLabel.font = [UIFont fontWithName:@"OpenSans-CondensedLight" size:16.0f];
+        _backgroundInfoLabel.font = [UIFont fontWithName:@"AvenirNextCondensed-Medium" size:16.0f];
         _backgroundInfoLabel.textColor = [UIColor whiteColor];
         _backgroundInfoLabel.shadowColor = [UIColor blackColor];
         _backgroundInfoLabel.shadowOffset = CGSizeMake(1.0f, 1.0f);

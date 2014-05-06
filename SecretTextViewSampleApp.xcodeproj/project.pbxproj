@@ -37,9 +37,6 @@
 		3955168FA32B421DAE44D923 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E0CE0A81911B428004FD653 /* KTSecretTextureChooserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KTSecretTextureChooserViewController.h; path = SecretTextView/KTSecretTextureChooserViewController.h; sourceTree = "<group>"; };
 		8E0CE0A91911B428004FD653 /* KTSecretTextureChooserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KTSecretTextureChooserViewController.m; path = SecretTextView/KTSecretTextureChooserViewController.m; sourceTree = "<group>"; };
-		8E23031419183E8C00F3DE78 /* OpenSans-CondBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-CondBold.ttf"; path = "SecretTextView/Resources/OpenSans-Cond/OpenSans-CondBold.ttf"; sourceTree = "<group>"; };
-		8E23031519183E8C00F3DE78 /* OpenSans-CondLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-CondLight.ttf"; path = "SecretTextView/Resources/OpenSans-Cond/OpenSans-CondLight.ttf"; sourceTree = "<group>"; };
-		8E230318191840B400F3DE78 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Regular.ttf"; path = "SecretTextView/Resources/OpenSans/OpenSans-Regular.ttf"; sourceTree = "<group>"; };
 		8E2303211918683400F3DE78 /* KTImageUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KTImageUtil.h; path = SecretTextView/Utils/KTImageUtil.h; sourceTree = "<group>"; };
 		8E2303221918683400F3DE78 /* KTImageUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KTImageUtil.m; path = SecretTextView/Utils/KTImageUtil.m; sourceTree = "<group>"; };
 		8E2303241918AF4900F3DE78 /* KTSecretTextViewSampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTSecretTextViewSampleViewController.h; sourceTree = "<group>"; };
@@ -214,9 +211,6 @@
 		8EC40EEF191195CF0048D85F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				8E23031419183E8C00F3DE78 /* OpenSans-CondBold.ttf */,
-				8E23031519183E8C00F3DE78 /* OpenSans-CondLight.ttf */,
-				8E230318191840B400F3DE78 /* OpenSans-Regular.ttf */,
 				8EC40EF0191195F40048D85F /* SecretTextImages.xcassets */,
 			);
 			name = Resources;

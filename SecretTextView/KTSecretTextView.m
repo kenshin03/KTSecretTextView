@@ -77,7 +77,7 @@ UITextViewDelegate
         shadow.shadowBlurRadius = 2.0f;
         
         _textAttributes = @{
-                            NSFontAttributeName: [UIFont fontWithName:@"OpenSans" size:22.0f],
+                            NSFontAttributeName: [UIFont fontWithName:@"AvenirNextCondensed-Medium" size:22.0f],
                             NSParagraphStyleAttributeName: paragrahStyle,
                             NSForegroundColorAttributeName: [UIColor whiteColor],
                             NSShadowAttributeName: shadow
