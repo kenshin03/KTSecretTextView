@@ -2,6 +2,8 @@
 
 `KTSecretTextView` is an attempt to re-create the text view in the app [Secret](http://secret.ly). Its clever designs and heavy use of gestures makes it very intuitive for users to customize their secret texts with textured backgrounds or photos. 
 
+More on the creation of this text view here - http://corgitoergosum.net/2014/05/07/good-enough-isnt-replicating-the-secret-ios-app-text-view/.
+
 ---
 ##Video
 
