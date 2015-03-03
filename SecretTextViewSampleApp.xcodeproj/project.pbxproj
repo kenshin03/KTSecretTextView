@@ -1,565 +1,1414 @@
-// !$*UTF8*$!
-{
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
-
-/* Begin PBXBuildFile section */
-		5493F99067374859879A86FD /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3955168FA32B421DAE44D923 /* libPods.a */; };
-		8E1303CD1919807C00ABEE3E /* KTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC40EC71910706B0048D85F /* KTAppDelegate.m */; };
-		8E1303CE1919809100ABEE3E /* KTSecretTextViewSampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2303251918AF4900F3DE78 /* KTSecretTextViewSampleViewController.m */; };
-		8EA14EBA19198566002635B0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EA14EB919198566002635B0 /* Default-568h@2x.png */; };
-		8EC40EB81910706B0048D85F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EC40EB71910706B0048D85F /* Foundation.framework */; };
-		8EC40EBA1910706B0048D85F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EC40EB91910706B0048D85F /* CoreGraphics.framework */; };
-		8EC40EBC1910706B0048D85F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EC40EBB1910706B0048D85F /* UIKit.framework */; };
-		8EC40EC41910706B0048D85F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC40EC31910706B0048D85F /* main.m */; };
-		8EC40ED11910706B0048D85F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EC40ED01910706B0048D85F /* XCTest.framework */; };
-		8EC40ED21910706B0048D85F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EC40EB71910706B0048D85F /* Foundation.framework */; };
-		8EC40ED31910706B0048D85F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EC40EBB1910706B0048D85F /* UIKit.framework */; };
-		8EC40EDB1910706B0048D85F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8EC40ED91910706B0048D85F /* InfoPlist.strings */; };
-		8EC40EDD1910706B0048D85F /* SecretTextViewSampleAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC40EDC1910706B0048D85F /* SecretTextViewSampleAppTests.m */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		8EC40ED41910706B0048D85F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8EC40EAC1910706B0048D85F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8EC40EB31910706B0048D85F;
-			remoteInfo = SecretTextViewSampleApp;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXFileReference section */
-		28BEA27EB422460690E7A36B /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
-		3955168FA32B421DAE44D923 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E0CE0A81911B428004FD653 /* KTSecretTextureChooserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KTSecretTextureChooserViewController.h; path = SecretTextView/KTSecretTextureChooserViewController.h; sourceTree = "<group>"; };
-		8E0CE0A91911B428004FD653 /* KTSecretTextureChooserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KTSecretTextureChooserViewController.m; path = SecretTextView/KTSecretTextureChooserViewController.m; sourceTree = "<group>"; };
-		8E2303211918683400F3DE78 /* KTImageUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KTImageUtil.h; path = SecretTextView/Utils/KTImageUtil.h; sourceTree = "<group>"; };
-		8E2303221918683400F3DE78 /* KTImageUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KTImageUtil.m; path = SecretTextView/Utils/KTImageUtil.m; sourceTree = "<group>"; };
-		8E2303241918AF4900F3DE78 /* KTSecretTextViewSampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTSecretTextViewSampleViewController.h; sourceTree = "<group>"; };
-		8E2303251918AF4900F3DE78 /* KTSecretTextViewSampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTSecretTextViewSampleViewController.m; sourceTree = "<group>"; };
-		8E23032919197DFF00F3DE78 /* KTSecretTextView.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = KTSecretTextView.podspec; path = SecretTextView/KTSecretTextView.podspec; sourceTree = SOURCE_ROOT; };
-		8E5CDEE519197F090059E376 /* KTNumberUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KTNumberUtil.h; path = SecretTextView/Utils/KTNumberUtil.h; sourceTree = "<group>"; };
-		8E5CDEE619197F090059E376 /* KTNumberUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KTNumberUtil.m; path = SecretTextView/Utils/KTNumberUtil.m; sourceTree = "<group>"; };
-		8E5CDEE719197F090059E376 /* UIColor+KTColorUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+KTColorUtils.h"; path = "SecretTextView/Utils/UIColor+KTColorUtils.h"; sourceTree = "<group>"; };
-		8E5CDEE819197F090059E376 /* UIColor+KTColorUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+KTColorUtils.m"; path = "SecretTextView/Utils/UIColor+KTColorUtils.m"; sourceTree = "<group>"; };
-		8E8438AF1912ECF200996E86 /* KTSecretPhotosEditorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KTSecretPhotosEditorViewController.h; path = SecretTextView/KTSecretPhotosEditorViewController.h; sourceTree = "<group>"; };
-		8E8438B01912ECF200996E86 /* KTSecretPhotosEditorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KTSecretPhotosEditorViewController.m; path = SecretTextView/KTSecretPhotosEditorViewController.m; sourceTree = "<group>"; };
-		8EA14EB919198566002635B0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "SecretTextView/Resources/SecretTextImages.xcassets/Default-568h@2x.png"; sourceTree = SOURCE_ROOT; };
-		8EC40EB41910706B0048D85F /* SecretTextViewSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecretTextViewSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8EC40EB71910706B0048D85F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		8EC40EB91910706B0048D85F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		8EC40EBB1910706B0048D85F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		8EC40EBF1910706B0048D85F /* SecretTextViewSampleApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SecretTextViewSampleApp-Info.plist"; sourceTree = "<group>"; };
-		8EC40EC11910706B0048D85F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		8EC40EC31910706B0048D85F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8EC40EC51910706B0048D85F /* SecretTextViewSampleApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SecretTextViewSampleApp-Prefix.pch"; sourceTree = "<group>"; };
-		8EC40EC61910706B0048D85F /* KTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KTAppDelegate.h; sourceTree = "<group>"; };
-		8EC40EC71910706B0048D85F /* KTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTAppDelegate.m; sourceTree = "<group>"; };
-		8EC40EC91910706B0048D85F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		8EC40ECF1910706B0048D85F /* SecretTextViewSampleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecretTextViewSampleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8EC40ED01910706B0048D85F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		8EC40ED81910706B0048D85F /* SecretTextViewSampleAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SecretTextViewSampleAppTests-Info.plist"; sourceTree = "<group>"; };
-		8EC40EDA1910706B0048D85F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		8EC40EDC1910706B0048D85F /* SecretTextViewSampleAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecretTextViewSampleAppTests.m; sourceTree = "<group>"; };
-		8EC40EE7191070CD0048D85F /* KTSecretColorChooserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KTSecretColorChooserViewController.h; path = SecretTextView/KTSecretColorChooserViewController.h; sourceTree = "<group>"; };
-		8EC40EE8191070CD0048D85F /* KTSecretColorChooserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KTSecretColorChooserViewController.m; path = SecretTextView/KTSecretColorChooserViewController.m; sourceTree = "<group>"; };
-		8EC40EEA191172C30048D85F /* KTSecretViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KTSecretViewController.h; path = SecretTextView/KTSecretViewController.h; sourceTree = "<group>"; };
-		8EC40EEB191172C30048D85F /* KTSecretViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KTSecretViewController.m; path = SecretTextView/KTSecretViewController.m; sourceTree = "<group>"; };
-		8EC40EF0191195F40048D85F /* SecretTextImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = SecretTextImages.xcassets; path = SecretTextView/Resources/SecretTextImages.xcassets; sourceTree = "<group>"; };
-		8EECF2E41916A8F800873520 /* KTSecretTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KTSecretTextView.h; path = SecretTextView/KTSecretTextView.h; sourceTree = "<group>"; };
-		8EECF2E51916A8F800873520 /* KTSecretTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KTSecretTextView.m; path = SecretTextView/KTSecretTextView.m; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		8EC40EB11910706B0048D85F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8EC40EBA1910706B0048D85F /* CoreGraphics.framework in Frameworks */,
-				8EC40EBC1910706B0048D85F /* UIKit.framework in Frameworks */,
-				8EC40EB81910706B0048D85F /* Foundation.framework in Frameworks */,
-				5493F99067374859879A86FD /* libPods.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8EC40ECC1910706B0048D85F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8EC40ED11910706B0048D85F /* XCTest.framework in Frameworks */,
-				8EC40ED31910706B0048D85F /* UIKit.framework in Frameworks */,
-				8EC40ED21910706B0048D85F /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		8E23031A1918675400F3DE78 /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				8E5CDEE519197F090059E376 /* KTNumberUtil.h */,
-				8E5CDEE619197F090059E376 /* KTNumberUtil.m */,
-				8E5CDEE719197F090059E376 /* UIColor+KTColorUtils.h */,
-				8E5CDEE819197F090059E376 /* UIColor+KTColorUtils.m */,
-				8E2303211918683400F3DE78 /* KTImageUtil.h */,
-				8E2303221918683400F3DE78 /* KTImageUtil.m */,
-			);
-			name = Utils;
-			sourceTree = "<group>";
-		};
-		8EC40EAB1910706B0048D85F = {
-			isa = PBXGroup;
-			children = (
-				8EC40EE6191070990048D85F /* SecretTextView */,
-				8EC40EBD1910706B0048D85F /* SecretTextViewSampleApp */,
-				8EC40ED61910706B0048D85F /* SecretTextViewSampleAppTests */,
-				8EC40EB61910706B0048D85F /* Frameworks */,
-				8EC40EB51910706B0048D85F /* Products */,
-				28BEA27EB422460690E7A36B /* Pods.xcconfig */,
-			);
-			sourceTree = "<group>";
-		};
-		8EC40EB51910706B0048D85F /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				8EC40EB41910706B0048D85F /* SecretTextViewSampleApp.app */,
-				8EC40ECF1910706B0048D85F /* SecretTextViewSampleAppTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		8EC40EB61910706B0048D85F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				8EC40EB71910706B0048D85F /* Foundation.framework */,
-				8EC40EB91910706B0048D85F /* CoreGraphics.framework */,
-				8EC40EBB1910706B0048D85F /* UIKit.framework */,
-				8EC40ED01910706B0048D85F /* XCTest.framework */,
-				3955168FA32B421DAE44D923 /* libPods.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		8EC40EBD1910706B0048D85F /* SecretTextViewSampleApp */ = {
-			isa = PBXGroup;
-			children = (
-				8EC40EC61910706B0048D85F /* KTAppDelegate.h */,
-				8EC40EC71910706B0048D85F /* KTAppDelegate.m */,
-				8E2303241918AF4900F3DE78 /* KTSecretTextViewSampleViewController.h */,
-				8E2303251918AF4900F3DE78 /* KTSecretTextViewSampleViewController.m */,
-				8EC40EC91910706B0048D85F /* Images.xcassets */,
-				8EC40EBE1910706B0048D85F /* Supporting Files */,
-			);
-			path = SecretTextViewSampleApp;
-			sourceTree = "<group>";
-		};
-		8EC40EBE1910706B0048D85F /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				8EA14EB919198566002635B0 /* Default-568h@2x.png */,
-				8E23032919197DFF00F3DE78 /* KTSecretTextView.podspec */,
-				8EC40EBF1910706B0048D85F /* SecretTextViewSampleApp-Info.plist */,
-				8EC40EC01910706B0048D85F /* InfoPlist.strings */,
-				8EC40EC31910706B0048D85F /* main.m */,
-				8EC40EC51910706B0048D85F /* SecretTextViewSampleApp-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		8EC40ED61910706B0048D85F /* SecretTextViewSampleAppTests */ = {
-			isa = PBXGroup;
-			children = (
-				8EC40EDC1910706B0048D85F /* SecretTextViewSampleAppTests.m */,
-				8EC40ED71910706B0048D85F /* Supporting Files */,
-			);
-			path = SecretTextViewSampleAppTests;
-			sourceTree = "<group>";
-		};
-		8EC40ED71910706B0048D85F /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				8EC40ED81910706B0048D85F /* SecretTextViewSampleAppTests-Info.plist */,
-				8EC40ED91910706B0048D85F /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		8EC40EE6191070990048D85F /* SecretTextView */ = {
-			isa = PBXGroup;
-			children = (
-				8E23031A1918675400F3DE78 /* Utils */,
-				8EC40EEF191195CF0048D85F /* Resources */,
-				8EC40EE7191070CD0048D85F /* KTSecretColorChooserViewController.h */,
-				8EC40EE8191070CD0048D85F /* KTSecretColorChooserViewController.m */,
-				8EC40EEA191172C30048D85F /* KTSecretViewController.h */,
-				8EC40EEB191172C30048D85F /* KTSecretViewController.m */,
-				8E0CE0A81911B428004FD653 /* KTSecretTextureChooserViewController.h */,
-				8E0CE0A91911B428004FD653 /* KTSecretTextureChooserViewController.m */,
-				8E8438AF1912ECF200996E86 /* KTSecretPhotosEditorViewController.h */,
-				8E8438B01912ECF200996E86 /* KTSecretPhotosEditorViewController.m */,
-				8EECF2E41916A8F800873520 /* KTSecretTextView.h */,
-				8EECF2E51916A8F800873520 /* KTSecretTextView.m */,
-			);
-			name = SecretTextView;
-			sourceTree = "<group>";
-		};
-		8EC40EEF191195CF0048D85F /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				8EC40EF0191195F40048D85F /* SecretTextImages.xcassets */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXNativeTarget section */
-		8EC40EB31910706B0048D85F /* SecretTextViewSampleApp */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8EC40EE01910706B0048D85F /* Build configuration list for PBXNativeTarget "SecretTextViewSampleApp" */;
-			buildPhases = (
-				8289D0768DCE46D1B3B68200 /* Check Pods Manifest.lock */,
-				8EC40EB01910706B0048D85F /* Sources */,
-				8EC40EB11910706B0048D85F /* Frameworks */,
-				8EC40EB21910706B0048D85F /* Resources */,
-				84F3BB5C0910419A8762BF19 /* Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SecretTextViewSampleApp;
-			productName = SecretTextViewSampleApp;
-			productReference = 8EC40EB41910706B0048D85F /* SecretTextViewSampleApp.app */;
-			productType = "com.apple.product-type.application";
-		};
-		8EC40ECE1910706B0048D85F /* SecretTextViewSampleAppTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8EC40EE31910706B0048D85F /* Build configuration list for PBXNativeTarget "SecretTextViewSampleAppTests" */;
-			buildPhases = (
-				8EC40ECB1910706B0048D85F /* Sources */,
-				8EC40ECC1910706B0048D85F /* Frameworks */,
-				8EC40ECD1910706B0048D85F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8EC40ED51910706B0048D85F /* PBXTargetDependency */,
-			);
-			name = SecretTextViewSampleAppTests;
-			productName = SecretTextViewSampleAppTests;
-			productReference = 8EC40ECF1910706B0048D85F /* SecretTextViewSampleAppTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		8EC40EAC1910706B0048D85F /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				CLASSPREFIX = KT;
-				LastUpgradeCheck = 0510;
-				ORGANIZATIONNAME = Corgitoergosum;
-				TargetAttributes = {
-					8EC40ECE1910706B0048D85F = {
-						TestTargetID = 8EC40EB31910706B0048D85F;
-					};
-				};
-			};
-			buildConfigurationList = 8EC40EAF1910706B0048D85F /* Build configuration list for PBXProject "SecretTextViewSampleApp" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-			);
-			mainGroup = 8EC40EAB1910706B0048D85F;
-			productRefGroup = 8EC40EB51910706B0048D85F /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				8EC40EB31910706B0048D85F /* SecretTextViewSampleApp */,
-				8EC40ECE1910706B0048D85F /* SecretTextViewSampleAppTests */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		8EC40EB21910706B0048D85F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8EA14EBA19198566002635B0 /* Default-568h@2x.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8EC40ECD1910706B0048D85F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8EC40EDB1910706B0048D85F /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		8289D0768DCE46D1B3B68200 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		84F3BB5C0910419A8762BF19 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		8EC40EB01910706B0048D85F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8EC40EC41910706B0048D85F /* main.m in Sources */,
-				8E1303CD1919807C00ABEE3E /* KTAppDelegate.m in Sources */,
-				8E1303CE1919809100ABEE3E /* KTSecretTextViewSampleViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8EC40ECB1910706B0048D85F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8EC40EDD1910706B0048D85F /* SecretTextViewSampleAppTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		8EC40ED51910706B0048D85F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8EC40EB31910706B0048D85F /* SecretTextViewSampleApp */;
-			targetProxy = 8EC40ED41910706B0048D85F /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		8EC40EC01910706B0048D85F /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8EC40EC11910706B0048D85F /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		8EC40ED91910706B0048D85F /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8EC40EDA1910706B0048D85F /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
-/* Begin XCBuildConfiguration section */
-		8EC40EDE1910706B0048D85F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-			};
-			name = Debug;
-		};
-		8EC40EDF1910706B0048D85F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				SDKROOT = iphoneos;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		8EC40EE11910706B0048D85F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 28BEA27EB422460690E7A36B /* Pods.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Kenny Tang (3ZSQ9FX37R)";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SecretTextViewSampleApp/SecretTextViewSampleApp-Prefix.pch";
-				INFOPLIST_FILE = "SecretTextViewSampleApp/SecretTextViewSampleApp-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		8EC40EE21910706B0048D85F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 28BEA27EB422460690E7A36B /* Pods.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SecretTextViewSampleApp/SecretTextViewSampleApp-Prefix.pch";
-				INFOPLIST_FILE = "SecretTextViewSampleApp/SecretTextViewSampleApp-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		8EC40EE41910706B0048D85F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SecretTextViewSampleApp.app/SecretTextViewSampleApp";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SecretTextViewSampleApp/SecretTextViewSampleApp-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "SecretTextViewSampleAppTests/SecretTextViewSampleAppTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		8EC40EE51910706B0048D85F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SecretTextViewSampleApp.app/SecretTextViewSampleApp";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SecretTextViewSampleApp/SecretTextViewSampleApp-Prefix.pch";
-				INFOPLIST_FILE = "SecretTextViewSampleAppTests/SecretTextViewSampleAppTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		8EC40EAF1910706B0048D85F /* Build configuration list for PBXProject "SecretTextViewSampleApp" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8EC40EDE1910706B0048D85F /* Debug */,
-				8EC40EDF1910706B0048D85F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8EC40EE01910706B0048D85F /* Build configuration list for PBXNativeTarget "SecretTextViewSampleApp" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8EC40EE11910706B0048D85F /* Debug */,
-				8EC40EE21910706B0048D85F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8EC40EE31910706B0048D85F /* Build configuration list for PBXNativeTarget "SecretTextViewSampleAppTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8EC40EE41910706B0048D85F /* Debug */,
-				8EC40EE51910706B0048D85F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-/* End XCConfigurationList section */
-	};
-	rootObject = 8EC40EAC1910706B0048D85F /* Project object */;
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>archiveVersion</key>
+	<string>1</string>
+	<key>classes</key>
+	<dict/>
+	<key>objectVersion</key>
+	<string>46</string>
+	<key>objects</key>
+	<dict>
+		<key>103C34CF7B5FE9676B820017</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods.debug.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods/Pods.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1C01D033174F3E447FD9996E</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>103C34CF7B5FE9676B820017</string>
+				<string>2EF4A0DDC031C72F590E16DB</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2EF4A0DDC031C72F590E16DB</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods.release.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods/Pods.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3955168FA32B421DAE44D923</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>5493F99067374859879A86FD</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3955168FA32B421DAE44D923</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>8289D0768DCE46D1B3B68200</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Check Pods Manifest.lock</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
+if [[ $? != 0 ]] ; then
+    cat &lt;&lt; EOM
+error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
+EOM
+    exit 1
+fi
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>84F3BB5C0910419A8762BF19</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>8E0CE0A81911B428004FD653</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>KTSecretTextureChooserViewController.h</string>
+			<key>path</key>
+			<string>SecretTextView/KTSecretTextureChooserViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8E0CE0A91911B428004FD653</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>KTSecretTextureChooserViewController.m</string>
+			<key>path</key>
+			<string>SecretTextView/KTSecretTextureChooserViewController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8E1303CD1919807C00ABEE3E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8EC40EC71910706B0048D85F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>8E1303CE1919809100ABEE3E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8E2303251918AF4900F3DE78</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>8E23031A1918675400F3DE78</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>8E5CDEE519197F090059E376</string>
+				<string>8E5CDEE619197F090059E376</string>
+				<string>8E5CDEE719197F090059E376</string>
+				<string>8E5CDEE819197F090059E376</string>
+				<string>8E2303211918683400F3DE78</string>
+				<string>8E2303221918683400F3DE78</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Utils</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8E2303211918683400F3DE78</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>KTImageUtil.h</string>
+			<key>path</key>
+			<string>SecretTextView/Utils/KTImageUtil.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8E2303221918683400F3DE78</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>KTImageUtil.m</string>
+			<key>path</key>
+			<string>SecretTextView/Utils/KTImageUtil.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8E2303241918AF4900F3DE78</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>KTSecretTextViewSampleViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8E2303251918AF4900F3DE78</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>KTSecretTextViewSampleViewController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8E23032919197DFF00F3DE78</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>name</key>
+			<string>KTSecretTextView.podspec</string>
+			<key>path</key>
+			<string>SecretTextView/KTSecretTextView.podspec</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>8E5CDEE519197F090059E376</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>KTNumberUtil.h</string>
+			<key>path</key>
+			<string>SecretTextView/Utils/KTNumberUtil.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8E5CDEE619197F090059E376</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>KTNumberUtil.m</string>
+			<key>path</key>
+			<string>SecretTextView/Utils/KTNumberUtil.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8E5CDEE719197F090059E376</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>UIColor+KTColorUtils.h</string>
+			<key>path</key>
+			<string>SecretTextView/Utils/UIColor+KTColorUtils.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8E5CDEE819197F090059E376</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>UIColor+KTColorUtils.m</string>
+			<key>path</key>
+			<string>SecretTextView/Utils/UIColor+KTColorUtils.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8E8438AF1912ECF200996E86</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>KTSecretPhotosEditorViewController.h</string>
+			<key>path</key>
+			<string>SecretTextView/KTSecretPhotosEditorViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8E8438B01912ECF200996E86</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>KTSecretPhotosEditorViewController.m</string>
+			<key>path</key>
+			<string>SecretTextView/KTSecretPhotosEditorViewController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8EA14EB919198566002635B0</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>image.png</string>
+			<key>name</key>
+			<string>Default-568h@2x.png</string>
+			<key>path</key>
+			<string>SecretTextView/Resources/SecretTextImages.xcassets/Default-568h@2x.png</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>8EA14EBA19198566002635B0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8EA14EB919198566002635B0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>8EC40EAB1910706B0048D85F</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>8EC40EE6191070990048D85F</string>
+				<string>8EC40EBD1910706B0048D85F</string>
+				<string>8EC40ED61910706B0048D85F</string>
+				<string>8EC40EB61910706B0048D85F</string>
+				<string>8EC40EB51910706B0048D85F</string>
+				<string>1C01D033174F3E447FD9996E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8EC40EAC1910706B0048D85F</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>CLASSPREFIX</key>
+				<string>KT</string>
+				<key>LastUpgradeCheck</key>
+				<string>0510</string>
+				<key>ORGANIZATIONNAME</key>
+				<string>Corgitoergosum</string>
+				<key>TargetAttributes</key>
+				<dict>
+					<key>8EC40ECE1910706B0048D85F</key>
+					<dict>
+						<key>TestTargetID</key>
+						<string>8EC40EB31910706B0048D85F</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>8EC40EAF1910706B0048D85F</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+			</array>
+			<key>mainGroup</key>
+			<string>8EC40EAB1910706B0048D85F</string>
+			<key>productRefGroup</key>
+			<string>8EC40EB51910706B0048D85F</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>8EC40EB31910706B0048D85F</string>
+				<string>8EC40ECE1910706B0048D85F</string>
+			</array>
+		</dict>
+		<key>8EC40EAF1910706B0048D85F</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>8EC40EDE1910706B0048D85F</string>
+				<string>8EC40EDF1910706B0048D85F</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>8EC40EB01910706B0048D85F</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>8EC40EC41910706B0048D85F</string>
+				<string>8E1303CD1919807C00ABEE3E</string>
+				<string>8E1303CE1919809100ABEE3E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>8EC40EB11910706B0048D85F</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>8EC40EBA1910706B0048D85F</string>
+				<string>8EC40EBC1910706B0048D85F</string>
+				<string>8EC40EB81910706B0048D85F</string>
+				<string>5493F99067374859879A86FD</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>8EC40EB21910706B0048D85F</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>8EA14EBA19198566002635B0</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>8EC40EB31910706B0048D85F</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>8EC40EE01910706B0048D85F</string>
+			<key>buildPhases</key>
+			<array>
+				<string>8289D0768DCE46D1B3B68200</string>
+				<string>8EC40EB01910706B0048D85F</string>
+				<string>8EC40EB11910706B0048D85F</string>
+				<string>8EC40EB21910706B0048D85F</string>
+				<string>84F3BB5C0910419A8762BF19</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>SecretTextViewSampleApp</string>
+			<key>productName</key>
+			<string>SecretTextViewSampleApp</string>
+			<key>productReference</key>
+			<string>8EC40EB41910706B0048D85F</string>
+			<key>productType</key>
+			<string>com.apple.product-type.application</string>
+		</dict>
+		<key>8EC40EB41910706B0048D85F</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.application</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>SecretTextViewSampleApp.app</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>8EC40EB51910706B0048D85F</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>8EC40EB41910706B0048D85F</string>
+				<string>8EC40ECF1910706B0048D85F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8EC40EB61910706B0048D85F</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>8EC40EB71910706B0048D85F</string>
+				<string>8EC40EB91910706B0048D85F</string>
+				<string>8EC40EBB1910706B0048D85F</string>
+				<string>8EC40ED01910706B0048D85F</string>
+				<string>3955168FA32B421DAE44D923</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8EC40EB71910706B0048D85F</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Foundation.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/Foundation.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>8EC40EB81910706B0048D85F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8EC40EB71910706B0048D85F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>8EC40EB91910706B0048D85F</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>CoreGraphics.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/CoreGraphics.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>8EC40EBA1910706B0048D85F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8EC40EB91910706B0048D85F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>8EC40EBB1910706B0048D85F</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>UIKit.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/UIKit.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>8EC40EBC1910706B0048D85F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8EC40EBB1910706B0048D85F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>8EC40EBD1910706B0048D85F</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>8EC40EC61910706B0048D85F</string>
+				<string>8EC40EC71910706B0048D85F</string>
+				<string>8E2303241918AF4900F3DE78</string>
+				<string>8E2303251918AF4900F3DE78</string>
+				<string>8EC40EC91910706B0048D85F</string>
+				<string>8EC40EBE1910706B0048D85F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>SecretTextViewSampleApp</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8EC40EBE1910706B0048D85F</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>8EA14EB919198566002635B0</string>
+				<string>8E23032919197DFF00F3DE78</string>
+				<string>8EC40EBF1910706B0048D85F</string>
+				<string>8EC40EC01910706B0048D85F</string>
+				<string>8EC40EC31910706B0048D85F</string>
+				<string>8EC40EC51910706B0048D85F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Supporting Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8EC40EBF1910706B0048D85F</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>SecretTextViewSampleApp-Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8EC40EC01910706B0048D85F</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>8EC40EC11910706B0048D85F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>InfoPlist.strings</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8EC40EC11910706B0048D85F</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.strings</string>
+			<key>name</key>
+			<string>en</string>
+			<key>path</key>
+			<string>en.lproj/InfoPlist.strings</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8EC40EC31910706B0048D85F</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>main.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8EC40EC41910706B0048D85F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8EC40EC31910706B0048D85F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>8EC40EC51910706B0048D85F</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>SecretTextViewSampleApp-Prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8EC40EC61910706B0048D85F</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>KTAppDelegate.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8EC40EC71910706B0048D85F</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>KTAppDelegate.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8EC40EC91910706B0048D85F</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>folder.assetcatalog</string>
+			<key>path</key>
+			<string>Images.xcassets</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8EC40ECB1910706B0048D85F</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>8EC40EDD1910706B0048D85F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>8EC40ECC1910706B0048D85F</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>8EC40ED11910706B0048D85F</string>
+				<string>8EC40ED31910706B0048D85F</string>
+				<string>8EC40ED21910706B0048D85F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>8EC40ECD1910706B0048D85F</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>8EC40EDB1910706B0048D85F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>8EC40ECE1910706B0048D85F</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>8EC40EE31910706B0048D85F</string>
+			<key>buildPhases</key>
+			<array>
+				<string>8EC40ECB1910706B0048D85F</string>
+				<string>8EC40ECC1910706B0048D85F</string>
+				<string>8EC40ECD1910706B0048D85F</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>8EC40ED51910706B0048D85F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>SecretTextViewSampleAppTests</string>
+			<key>productName</key>
+			<string>SecretTextViewSampleAppTests</string>
+			<key>productReference</key>
+			<string>8EC40ECF1910706B0048D85F</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle.unit-test</string>
+		</dict>
+		<key>8EC40ECF1910706B0048D85F</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>SecretTextViewSampleAppTests.xctest</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>8EC40ED01910706B0048D85F</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>XCTest.framework</string>
+			<key>path</key>
+			<string>Library/Frameworks/XCTest.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>8EC40ED11910706B0048D85F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8EC40ED01910706B0048D85F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>8EC40ED21910706B0048D85F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8EC40EB71910706B0048D85F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>8EC40ED31910706B0048D85F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8EC40EBB1910706B0048D85F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>8EC40ED41910706B0048D85F</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>8EC40EAC1910706B0048D85F</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>8EC40EB31910706B0048D85F</string>
+			<key>remoteInfo</key>
+			<string>SecretTextViewSampleApp</string>
+		</dict>
+		<key>8EC40ED51910706B0048D85F</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>8EC40EB31910706B0048D85F</string>
+			<key>targetProxy</key>
+			<string>8EC40ED41910706B0048D85F</string>
+		</dict>
+		<key>8EC40ED61910706B0048D85F</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>8EC40EDC1910706B0048D85F</string>
+				<string>8EC40ED71910706B0048D85F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>SecretTextViewSampleAppTests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8EC40ED71910706B0048D85F</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>8EC40ED81910706B0048D85F</string>
+				<string>8EC40ED91910706B0048D85F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Supporting Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8EC40ED81910706B0048D85F</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>SecretTextViewSampleAppTests-Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8EC40ED91910706B0048D85F</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>8EC40EDA1910706B0048D85F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>InfoPlist.strings</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8EC40EDA1910706B0048D85F</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.strings</string>
+			<key>name</key>
+			<string>en</string>
+			<key>path</key>
+			<string>en.lproj/InfoPlist.strings</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8EC40EDB1910706B0048D85F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8EC40ED91910706B0048D85F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>8EC40EDC1910706B0048D85F</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>SecretTextViewSampleAppTests.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8EC40EDD1910706B0048D85F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8EC40EDC1910706B0048D85F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>8EC40EDE1910706B0048D85F</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.1</string>
+				<key>ONLY_ACTIVE_ARCH</key>
+				<string>YES</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>8EC40EDF1910706B0048D85F</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>ENABLE_NS_ASSERTIONS</key>
+				<string>NO</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.1</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>8EC40EE01910706B0048D85F</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>8EC40EE11910706B0048D85F</string>
+				<string>8EC40EE21910706B0048D85F</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>8EC40EE11910706B0048D85F</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>103C34CF7B5FE9676B820017</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer: Kenny Tang (3ZSQ9FX37R)</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>SecretTextViewSampleApp/SecretTextViewSampleApp-Prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>SecretTextViewSampleApp/SecretTextViewSampleApp-Info.plist</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.0</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>app</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>8EC40EE21910706B0048D85F</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>2EF4A0DDC031C72F590E16DB</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>SecretTextViewSampleApp/SecretTextViewSampleApp-Prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>SecretTextViewSampleApp/SecretTextViewSampleApp-Info.plist</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.0</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>app</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>8EC40EE31910706B0048D85F</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>8EC40EE41910706B0048D85F</string>
+				<string>8EC40EE51910706B0048D85F</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>8EC40EE41910706B0048D85F</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(BUILT_PRODUCTS_DIR)/SecretTextViewSampleApp.app/SecretTextViewSampleApp</string>
+				<key>FRAMEWORK_SEARCH_PATHS</key>
+				<array>
+					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
+					<string>$(inherited)</string>
+					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
+				</array>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>SecretTextViewSampleApp/SecretTextViewSampleApp-Prefix.pch</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>INFOPLIST_FILE</key>
+				<string>SecretTextViewSampleAppTests/SecretTextViewSampleAppTests-Info.plist</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUNDLE_LOADER)</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>xctest</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>8EC40EE51910706B0048D85F</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(BUILT_PRODUCTS_DIR)/SecretTextViewSampleApp.app/SecretTextViewSampleApp</string>
+				<key>FRAMEWORK_SEARCH_PATHS</key>
+				<array>
+					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
+					<string>$(inherited)</string>
+					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
+				</array>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>SecretTextViewSampleApp/SecretTextViewSampleApp-Prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>SecretTextViewSampleAppTests/SecretTextViewSampleAppTests-Info.plist</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUNDLE_LOADER)</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>xctest</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>8EC40EE6191070990048D85F</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>8E23031A1918675400F3DE78</string>
+				<string>8EC40EEF191195CF0048D85F</string>
+				<string>8EC40EE7191070CD0048D85F</string>
+				<string>8EC40EE8191070CD0048D85F</string>
+				<string>8EC40EEA191172C30048D85F</string>
+				<string>8EC40EEB191172C30048D85F</string>
+				<string>8E0CE0A81911B428004FD653</string>
+				<string>8E0CE0A91911B428004FD653</string>
+				<string>8E8438AF1912ECF200996E86</string>
+				<string>8E8438B01912ECF200996E86</string>
+				<string>8EECF2E41916A8F800873520</string>
+				<string>8EECF2E51916A8F800873520</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>SecretTextView</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8EC40EE7191070CD0048D85F</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>KTSecretColorChooserViewController.h</string>
+			<key>path</key>
+			<string>SecretTextView/KTSecretColorChooserViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8EC40EE8191070CD0048D85F</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>KTSecretColorChooserViewController.m</string>
+			<key>path</key>
+			<string>SecretTextView/KTSecretColorChooserViewController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8EC40EEA191172C30048D85F</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>KTSecretViewController.h</string>
+			<key>path</key>
+			<string>SecretTextView/KTSecretViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8EC40EEB191172C30048D85F</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>KTSecretViewController.m</string>
+			<key>path</key>
+			<string>SecretTextView/KTSecretViewController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8EC40EEF191195CF0048D85F</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>8EC40EF0191195F40048D85F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Resources</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8EC40EF0191195F40048D85F</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>folder.assetcatalog</string>
+			<key>name</key>
+			<string>SecretTextImages.xcassets</string>
+			<key>path</key>
+			<string>SecretTextView/Resources/SecretTextImages.xcassets</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8EECF2E41916A8F800873520</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>KTSecretTextView.h</string>
+			<key>path</key>
+			<string>SecretTextView/KTSecretTextView.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8EECF2E51916A8F800873520</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>KTSecretTextView.m</string>
+			<key>path</key>
+			<string>SecretTextView/KTSecretTextView.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+	</dict>
+	<key>rootObject</key>
+	<string>8EC40EAC1910706B0048D85F</string>
+</dict>
+</plist>

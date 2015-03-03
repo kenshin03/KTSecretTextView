@@ -386,11 +386,6 @@ UINavigationControllerDelegate
 
 #pragma mark - Event handler methods
 
-- (void)didSelectCancelButton:(UIButton*)sender
-{
-    [self dismissViewControllerAnimated:YES completion:nil];
-}
-
 - (void)didSelectDoneButton:(UIButton*)sender
 {
     // hide button before taking snapshot
