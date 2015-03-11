@@ -403,6 +403,12 @@ UINavigationControllerDelegate
     
 }
 
+- (void)didSelectCancelButton:(UIButton*)sender
+{
+    [self dismissViewControllerAnimated:YES completion:nil];
+
+}
+
 - (void)didSelectPhotosButton:(UIButton*)sender
 {
     if (!self.photosEditorViewController.selectedImage) {
