@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/kenshin03/KTSecretTextView.svg?branch=master)](https://travis-ci.org/kenshin03/KTSecretTextView)
+
 #KTSecretTextView
 
 `KTSecretTextView` is an attempt to re-create the text view in the app [Secret](http://secret.ly). Its clever designs and heavy use of gestures makes it very intuitive for users to customize their secret texts with textured backgrounds or photos. 
